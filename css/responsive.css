@@ -1,0 +1,537 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* banner part start */
+    .banner_text h2::before {
+        width: 104px;
+    }
+    .banner_text h2::after {
+        width: 153px;
+    }
+    .banner_text p::after {
+        width: 65px;
+    }
+    .banner_text p::before {
+        width: 32px;
+    }
+    /* banner part end */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* banner part start */
+.banner_text h2::after {
+	width: 141px;
+}
+.banner_text h2::before {
+	width: 142px;
+}
+.banner_text h1::after {
+	height: 213px;
+}
+.banner_text h1::before {
+	height: 212px;
+}
+.banner_text p::before {
+	width: 74px;
+}
+.banner_text p::after {
+	width: 117px;
+}
+
+/* banner part end */
+.tabs_body ul li {
+	width: 49.44%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* menu part star */
+.main_menu .navbar-brand {
+	width: 180px;
+}
+
+/* menu part end */
+
+/* banner part star */
+.banner_item {
+	padding: 184px 0 117px;
+}
+.banner_text h2::before {
+	width: 247px;	
+}
+.banner_text p::after {
+	width: 164px;
+}
+.banner_text p::before {
+	width: 136px;	
+}
+.banner_text h2::after {
+	width: 245px;
+}
+/* banner part end */
+
+
+/* about part star */
+#about {
+	padding-top: 50px;
+}
+/* about part end */
+
+
+/* gallary part star */
+#gallery {
+	padding-top: 50px;
+}
+.gall_img:nth-child(2){
+    margin-bottom: 20px;
+}
+
+/* gallary part end */
+
+
+/* class part star */
+.tabs_body ul li {
+	width: 49.22%;
+}
+
+/* class part end */
+
+/* logo part star */
+#logo {
+	padding-bottom: 50px;
+}
+/* logo part end */
+
+/* footer part star */
+.photo_flicker ul li {
+	margin-right: 50px;
+	margin-bottom: 27.7px;
+}
+/* footer part end */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* menu part start */
+     .main_menu {
+        background: #e23e38;
+        top: 0;
+        height: 48px;
+
+    }
+
+    .main_menu .navbar-brand {
+        width: 199px;
+        height: 62px;
+        line-height: 62px;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu .navbar-brand::before,
+    .main_menu .navbar-brand::after {
+        width: 3px;
+        height: 62px;
+    }
+
+    .main_menu button i {
+        color: #ffff;
+        margin-bottom: 15px;
+    }
+
+    .main_menu .navbar-brand img {
+        margin-top: -6px;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: #e23e38;
+        text-align: center;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    /* menu part end */
+
+
+    /* banner part start */
+    .main_menu ul li a::after,
+    .banner_text h2::before,
+    .banner_text h2::after,
+    .banner_text h1::before,
+    .banner_text h1::after,
+    .banner_text p::before,
+    .banner_text p::after{
+       display: none;
+    }
+    .banner_item {
+        padding: 160px 0 117px;
+    }
+    .banner_text h1 {
+        font-size: 50px;
+        padding-bottom: 9px;
+    }
+    .banner_text h2 {
+        font-size: 17px;
+    }
+    .banner_text h1{
+        font-size: 36px;
+        padding-bottom: 5px;
+    }
+    .banner_text p {
+        line-height: 16px;
+        padding-bottom: 17px;
+    }
+    .banner_text a { 
+        padding: 4px 12px;
+        margin: 0 6px;
+    }
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+      
+
+    /* banner part end */
+
+
+    /* about part start */
+    #about {
+        padding-top: 45px;
+    }
+    .about_text span {
+        padding-top: 9px;
+        padding-bottom: 40px;
+    }
+    .about_text p {
+        text-align: justify;
+    }
+    .about_video .overly a {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    /* about part end */
+
+    /* gallary part start */
+    #gallery {
+        padding-top: 45px;
+    }
+    .gall_img:nth-child(2){
+        margin-bottom: 20px;
+    }
+    /* gallary part end */
+
+    /* team part start */
+    .gall_img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_main{
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+    .team_main .team_text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_main .team_text {
+        border-color: #ddd;
+    }
+    #team {
+        padding: 23px 0;
+    }
+    .common_head {
+        padding-bottom: 0;
+    }
+    #team {
+        padding: 13px 0;
+    }
+  
+    /* team part end */
+    /* class part start */
+    #class {
+        padding: 45px 0;
+    }
+    .tabs_menu li {
+        width: 33.33%;
+    }
+    .tabs_menu {
+        height: auto;
+        justify-content: space-between;
+    }
+    .common_head {
+        padding-bottom: 15px;
+    }
+
+    .tabs_body ul li {
+        width: 255px;
+        margin-right: 2px;
+        padding: 50px 0;
+    }
+    .tabs_body ul {
+        justify-content: space-between;
+    }
+    /* class part end */
+
+    /* logo part start */
+    #logo {
+        padding-bottom: 45px;
+    }
+    /* logo part end */
+
+
+    /* footer part start */
+    .photo_flicker ul li {
+        margin-right: 20px;
+        margin-bottom: 19.7px;
+    }
+    .fot_body h5 {
+        padding-top: 19px;
+    }
+    /* footer part end */
+
+}
+
+@media (max-width: 575.98px) {
+
+    /* menu part start */
+    .main_menu {
+        background: #e23e38;
+        top: 0;
+        height: 35px;
+
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu .navbar-brand::before,
+    .main_menu .navbar-brand::after {
+        width: 3px;
+        height: 51px;
+    }
+
+    .main_menu button i {
+        color: #ffff;
+        margin-bottom: 15px;
+    }
+
+    .main_menu .navbar-brand img {
+        margin-top: -6px;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: #e23e38;
+        text-align: center;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    /* menu part end */
+
+    /* banner part start */
+    .main_menu ul li a::after,
+    .banner_text h2::before,
+    .banner_text h2::after,
+    .banner_text h1::before,
+    .banner_text h1::after,
+    .banner_text p::before,
+    .banner_text p::after{
+       display: none;
+    }
+
+    /* banner part end */
+    .banner_item {
+        padding: 85px 0 117px;
+    }
+    .banner_text h2 {
+        font-size: 17px;
+    }
+    .banner_text h1{
+        font-size: 36px;
+        padding-bottom: 5px;
+    }
+    .banner_text p {
+        line-height: 16px;
+        padding-bottom: 17px;
+    }
+    .banner_text a { 
+        padding: 4px 12px;
+        margin: 0 6px;
+    }
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+        
+
+    /* about part start */
+    #about {
+        padding-top: 45px;
+    }
+    .about_text span {
+        padding-top: 9px;
+        padding-bottom: 40px;
+    }
+    .about_text p {
+        text-align: justify;
+    }
+    .about_video .overly a {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    /* about part end */
+
+
+    /* gallary part start */
+    #gallery {
+        padding-top: 45px;
+    }
+    .gall_img:nth-child(2){
+        margin-bottom: 20px;
+    }
+    /* gallary part end */
+
+    /* team part start */
+    .gall_img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_main{
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+    .team_main .team_text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_main .team_text {
+        border-color: #ddd;
+    }
+    #team {
+        padding: 23px 0;
+    }
+    .common_head {
+        padding-bottom: 0;
+    }
+    #team {
+        padding: 13px 0;
+    }
+  
+    /* team part end */
+
+    /* testimonial part start */
+
+    #testimonial .slick-dots {
+        left: 50%;
+        width: 25%;
+    }
+    #testimonial .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+    #testimonial .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* testimonial part end */
+
+    /* counter part start */
+    .col p {
+        font-size: 8px;
+    }
+    .col h2 {
+        font-size: 13px;
+    }
+    #counter {
+        padding: 23px;
+    }
+    /* counter part end */
+
+    /* class part start */
+    #class {
+        padding: 45px 0;
+    }
+    .tabs_menu li {
+        width: 33.33%;
+    }
+    .tabs_menu {
+        height: auto;
+        justify-content: space-between;
+    }
+    .common_head {
+        padding-bottom: 15px;
+    }
+
+    .tabs_body ul li {
+        width: 140px;
+        margin-right: 2px;
+        padding: 50px 0;
+    }
+    .tabs_body ul {
+        justify-content: space-between;
+    }
+    /* class part end */
+    /* logo part start */
+    
+    #logo {
+        padding-bottom: 51px;
+    }
+    /* logo part end */
+
+    /* footer part start */
+    .photo_flicker ul li {
+        margin-right: 4.7px;
+        margin-bottom: 4.7px;
+    }
+    /* footer part end */
+
+
+
+}
